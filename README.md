@@ -4,14 +4,14 @@ Code for the paper : <i>Bayes-optimal learning of random extensive-width network
 
 <p align="center"><img src="figures/Bayes_curves.jpg" alt="illus" width="400"/></center></p>
 
-<b>Bayes-optimal generalization errors</b>
+## Bayes-optimal generalization errors
 
 - <tt>Multilayer_BO.ipynb</tt> implements the theoretical characterization of equations (12)-(14) for the Bayes-optimal regression error $\epsilon_{g,reg}^{BO}$ (4) associated to the learning of the target (2).
 
 - <tt>Multilayer_BO_classification.ipynb</tt> implements the theoretical characterization of equation (15) for the Bayes-optimal classification error $\epsilon_{g,reg}^{BO}$ (5) associated to the learning of the target (2).
 
 
-<b>ERM with linear methods</b>
+## ERM with linear methods
 
 - (<i>Linear regression</i>) <tt>Multilayer_Ridge_repl.ipynb</tt> returns the test error achieved by ridge regression, as characterized in equations (19) and (20).
 - (<i>Logistic regression</i>) <tt>Multilayer_Logistic_repl.ipynb</tt> returns the test error achieved by logistic regression, discussed in subsection 4.4, see equation (275) in Appendix H.
